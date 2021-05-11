@@ -32,10 +32,10 @@ print(result_2)
 # _____________________________________________________________________________________________________________
 
 
-def gen_1(x):
+def gen_3(x):
     yield [i for i in x if i < 0]
 
 
 limit = range(-5, 5)
-result_3 = list(gen_1(limit))[0]
+result_3 = list(gen_3(limit))[0]
 print(result_3)
